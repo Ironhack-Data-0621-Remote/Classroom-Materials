@@ -1,0 +1,16 @@
+❗ Notes: Primary keys are used to uniquely identify every record in the table. By definition, they are UNIQUE and NOT NULL. They are used to establish relationships between tables, enforcing the data integrity constraints on the database as well. Primary keys also help with indexing which in turn helps to speed up queries, searches and sorting through the data. Primary keys result in CLUSTERED unique indexes by default. We will talk about clustered and non-clustered indexes later. Here are some of the properties of primary keys:
+
+There can only be one primary key for a table.
+The primary key consists of one or more columns.
+The primary key enforces the entity integrity of the table.
+The primary key uniquely identifies a row.
+❗ Notes: Foreign keys are the columns of a table that points to the primary key of another table so as to provides a link between data in two tables. The table containing the foreign key can be referred to as the child table, and the table containing the candidate key can be referred to as the referenced or parent table
+
+Here are some of the properties of foreign keys:
+
+A relational FK references a relational PK
+A FK's referencing column types agree with corresponding referenced column types
+It should protect the referential integrity of the data ie a FK's referencing column values must appear as corresponding referenced column values
+Why are they important? Given the snapshot below, observe and explain what might happen if we do not have references of keys from other tables as foreign keys in the table shown below? Here is the image below.
+
+If we do not have the foreign keys then we will have to include all the data from the other tables into the same table. This would create a lot of data redundancy. Such issues are taken care of by an important concept called Normalization. We will introduce this concept in greater detail later this week. It is important to emphasize to the students, that designing a database is the task of data engineers but to write an efficient join queries, it is good to understand these these concepts.
