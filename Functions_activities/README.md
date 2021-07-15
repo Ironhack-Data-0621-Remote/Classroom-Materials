@@ -10,10 +10,3 @@ As a programmer, we must always pracatice our minds, our logic and our control o
 
 Open the `main.ipynb` file. Follow the instructions and add your code and explanations as necessary. By the end of this lab, you will have leveled up your coding game.
 
-## Deliverables
-
-- `main.ipynb` with your responses.
-
-## Submission
-
-Upon completion, add your deliverables to git. Then commit git and push your branch to the remote.
